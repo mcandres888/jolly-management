@@ -57,16 +57,18 @@
 The company was incorporated on April 29, 2005 to engage in the business of local contracting, enlisting, recruiting professionals, skilled, unskilled and individuals or firms in the supply of manpower.  
 </p><p>
 
-JMSI, has been supplying manpower nationwide with experience in Luzon, Visayas and Mindanao evidenced by the clientele in our map where we are deploying manpower. We ensure quality and competitiveness of our workers. We invest efforts in mobilizing highly qualified workers to suit the requirements and to the satisfaction of our clients. 
+<strong>JMSI</strong>, has been supplying manpower nationwide with experience in Luzon, Visayas and Mindanao evidenced by the clientele in our map where we are deploying manpower. We ensure quality and competitiveness of our workers. We invest efforts in mobilizing highly qualified workers to suit the requirements and to the satisfaction of our clients. 
 </p>
 <p>
-JMSI is committed to creating a highly interactive relationship to provide our clients with the best possible service tailored and to suit their specific needs while aiming to provide quality service at a very reasonable and competitive cost.   
+<strong>JMSI</strong> is committed to creating a highly interactive relationship to provide our clients with the best possible service tailored and to suit their specific needs while aiming to provide quality service at a very reasonable and competitive cost.   
 </p>
 <p>
 
-JMSI also have not lost sight that its objective is to assist Filipinos in securing promising job opportunities nationwide in order to help them augment their needs and attain economic stability for their families.
+<strong>JMSI</strong> also have not lost sight that its objective is to assist Filipinos in securing promising job opportunities nationwide in order to help them augment their needs and attain economic stability for their families.
+</p>
+<p>
 
-JMSI believes that to obtain the success of a business of this kind aside from the combined effort between the company and its clienteles the company should also have an understanding of its client’s business.  Thus, our company place a huge emphasis on taking a full client briefing and thereby get a full understanding of their needs.  The objective is to transpose that need into a viable recruitment action plan.
+<strong>JMSI</strong> believes that to obtain the success of a business of this kind aside from the combined effort between the company and its clienteles the company should also have an understanding of its client’s business.  Thus, our company place a huge emphasis on taking a full client briefing and thereby get a full understanding of their needs.  The objective is to transpose that need into a viable recruitment action plan.
            </p>
 
 <br><br>

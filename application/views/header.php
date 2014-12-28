@@ -12,13 +12,13 @@
     <title>Jolly Management Solution Inc</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="<?=base_url()?>/css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?=base_url()?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,10 +50,10 @@
 
      <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="<?=site_url()?>/main/about">About</a>
                     </li>
                     <li>
-                        <a href="services.html">Services</a>
+                        <a href="<?=site_url()?>/main/services">Services</a>
                     </li>
                     <li>
                         <a href="contact.html">Job Opportunity</a>

@@ -106,3 +106,18 @@ max-height:100%;
 margin:auto;
 display:block;
 }
+
+
+#team_div
+{
+height:210px;
+width:350px;
+}
+
+#team_div img
+{
+max-width:100%; 
+max-height:100%;
+margin:auto;
+display:block;
+}
