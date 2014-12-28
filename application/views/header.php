@@ -50,6 +50,9 @@
 
      <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a href="<?=site_url()?>">Home</a>
+                    </li>
+                    <li>
                         <a href="<?=site_url()?>/main/about">About</a>
                     </li>
                     <li>
