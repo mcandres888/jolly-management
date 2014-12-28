@@ -56,11 +56,11 @@
                         <a href="<?=site_url()?>/main/services">Services</a>
                     </li>
                     <li>
-                        <a href="contact.html">Job Opportunity</a>
+                        <a href="<?=site_url()?>/main/jobs">Job Opportunity</a>
                     </li>
 
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="<?=site_url()?>/main/contact">Contact Us</a>
                     </li>
 <!--
                     <li class="dropdown">
