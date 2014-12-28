@@ -288,7 +288,7 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
                     <p>For inquiries send us an email hrdrecruitment.jmsi@gamil.com or hrdrecruitment.jmsi@yahoo.com. You can also inquire by using our inquiry form.</p>
                 </div>
                 <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block" href="#">Send an inquiry</a>
+                    <a class="btn btn-lg btn-default btn-block" href="<?=site_url()?>/main/contact">Send an inquiry</a>
                 </div>
             </div>
         </div>
