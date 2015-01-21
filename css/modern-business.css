@@ -121,3 +121,17 @@ max-height:100%;
 margin:auto;
 display:block;
 }
+
+
+.navbar-inverse {
+background-color: #5BC236;
+border-color: #5BC236;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFFFFF;
+}
