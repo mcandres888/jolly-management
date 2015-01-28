@@ -67,10 +67,14 @@
                 		<li><a href="#">Web Payslip</a></li>
               			</ul>
                     </li>
-
-
                     <li>
-                        <a href="<?=site_url()?>/main/contact">Contact Us</a>
+  			 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Contact Us <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                        <li><a href="<?=site_url()?>/main/contact">Main Office</a></li>
+                        <li><a href="<?=site_url()?>/main/branches">Branches</a></li>
+              	          </ul>
+
+
                     </li>
 <!--
                     <li class="dropdown">
