@@ -18,27 +18,22 @@
 
 <?php
 
-   $branches = [
-     array("branch_name"=> "Cagayan Office", "coordinator" => "TRENA BARETE",
+   $branches = [ array("branch_name"=> "Cagayan Office", "coordinator" => "TRENA BARETE",
            "address" => "17th - 1st St. Nazareth  Cagayan De Oro", 
            "iframe_src" => "https://www.google.com/maps/embed/v1/search?q=Nazareth%2C%201st%20St%2C%20Cagayan%20de%20Oro%2C%20Northern%20Mindanao%2C%20Philippines&key=AIzaSyDtO0uKMUJ9cHbpSkA4lebvPcfHoFasNlQ",
            "landline" => "088-8801429" , "mobile" => "0917-5080595"  ),
-
      array("branch_name"=> "Cebu Office", "coordinator" => "JOEL CANDOLETA",
            "address" => "Nicton Bldg., Eagle St.  T. Padilla Cebu City",
            "iframe_src" => "https://www.google.com/maps/embed/v1/search?q=Nicton%20Bldg.%2C%20Eagle%20St.%20%20T.%20Padilla%20Cebu%20City&key=AIzaSyDtO0uKMUJ9cHbpSkA4lebvPcfHoFasNlQ",
            "landline" => "032-2361220" , "mobile" => "0929-7620441"  ),
-
      array("branch_name"=> "Davao Office", "coordinator" => "JOSEPH TROPICO",
            "address" => "BGP Commercial Comp. II DOR# 202 Matina Crossing Davao City",
            "iframe_src" => "https://www.google.com/maps/embed/v1/search?q=bgp%20commercial%20matina%20crossing%20davao%20city&key=AIzaSyDtO0uKMUJ9cHbpSkA4lebvPcfHoFasNlQ",
            "landline" => "082-2957787" , "mobile" => "0910-3333222"  ),
-
      array("branch_name"=> "Iloilo Office", "coordinator" => "FERDINAND DORONILA",
            "address" => "2nd Flr. Injap Bldg. Cor. Luna and Huervana St Lapaz Iloilo City",
            "iframe_src" => "https://www.google.com/maps/embed/v1/search?q=Injap%20Bldg.%20Cor.%20Luna%20and%20Huervana%20St%20Lapaz%20Iloilo%20City&key=AIzaSyDtO0uKMUJ9cHbpSkA4lebvPcfHoFasNlQ",
-           "landline" => "033-3204849" , "mobile" => "0999-5047720"  ),
-    ] ;
+           "landline" => "033-3204849" , "mobile" => "0999-5047720"  ) ] ;
 
    foreach ($branches as $branch) {
 
