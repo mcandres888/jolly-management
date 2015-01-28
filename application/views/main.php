@@ -14,7 +14,7 @@
             <div class="item active">
                 <div class="fill" style="background-image:url('<?=base_url('images')?>/slider-bc.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Providing Solutions for your manpower needs</h2>
+                    <h2>Providing Solution for your manpower needs</h2>
                 </div>
             </div>
             <div class="item">
@@ -26,7 +26,7 @@
             <div class="item">
                 <div class="fill" style="background-image:url('<?=base_url('images')?>/slider_buildings.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2>Providing Solutions for your manpower needs</h2>
+                    <h2>Smile you found us.</h2>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Jolly Management Solutions Inc.
+                    Jolly Management Solution Inc.
                 </h1>
             </div>
 
@@ -249,7 +249,7 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
                 <h2 class="page-header">Service Offered</h2>
             </div>
             <div class="col-md-6">
-                <p>Jolly Management Solutions Inc. offers the following services:</p>
+                <p>Jolly Management Solution Inc. offers the following services:</p>
                 <ul>
                     <li>Assist Client with manpower need from end to end hiring process
 </li>
@@ -285,7 +285,7 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
         <div class="well">
             <div class="row">
                 <div class="col-md-8">
-                    <p>For inquiries send us an email hrdrecruitment.jmsi@gamil.com or hrdrecruitment.jmsi@yahoo.com. You can also inquire by using our inquiry form.</p>
+                    <p>For inquiries send us an email hrdrecruitment.jmsi@gmail.com or hrdrecruitment.jmsi@yahoo.com. You can also inquire by using our inquiry form.</p>
                 </div>
                 <div class="col-md-4">
                     <a class="btn btn-lg btn-default btn-block" href="<?=site_url()?>/main/contact">Send an inquiry</a>

@@ -43,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?=site_url()?>">Jolly Management Solution Inc.</a>
+                <img src="<?=base_url()?>/images/jollylogo.jpg" class=""> 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -61,6 +61,13 @@
                     <li>
                         <a href="<?=site_url()?>/main/jobs">Job Opportunity</a>
                     </li>
+                    <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Tools <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                		<li><a href="#">Web Payslip</a></li>
+              			</ul>
+                    </li>
+
 
                     <li>
                         <a href="<?=site_url()?>/main/contact">Contact Us</a>
