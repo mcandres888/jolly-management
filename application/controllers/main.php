@@ -33,6 +33,12 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('contact');
 	}
+
+	public function branches()
+	{
+		$this->load->view('branches');
+	}
+
 	public function jobs()
 	{
 		$this->load->view('jobs');
