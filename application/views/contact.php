@@ -21,7 +21,7 @@
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Jolly%20Management%20Solution%20Incorporated%2C%20Makati%2C%20Metro%20Manila%2C%20Philippines&key=AIzaSyD0U2HfS7PvPBB0qKgT2g1Yxrc-frU38YQ"></iframe>
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Jolly%20Management%20Solution%20Incorporated%2C%20Makati%2C%20Metro%20Manila%2C%20Philippines&key=AIzaSyCvOKLZPa0wxvVRcnOAQx-4HR0BpMlg56s"></iframe>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
