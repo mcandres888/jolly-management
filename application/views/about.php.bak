@@ -152,7 +152,7 @@ $members = array(
 
 
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -191,6 +191,139 @@ $members = array(
   </a>
 </div> <!-- Carousel -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-4 col-sm-6">
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_yacht_club.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_ace.png">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_brady.gif">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti.JPG">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_santos.jpeg">
+             </div>
+            </div>
+
+    <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical_clinic.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_pacific.jpeg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_masinag.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_md.jpg">
+             </div>
+
+
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_pasig.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_vista.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_taytay.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_best_mobile.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_canadian.png">
+             </div>
+
+           </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_pasig.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_vista.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_taytay.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_best_mobile.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_canadian.png">
+             </div>
+
+
+         </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_yacht_club.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_ace.png">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_brady.gif">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti.JPG">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_santos.jpeg">
+             </div>
+
+        </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical_clinic.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_pacific.jpeg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_masinag.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_md.jpg">
+             </div>
+
+
+            </div>
+
+
+        </div>
         <!-- /.row -->
 
         <hr>

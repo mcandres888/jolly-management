@@ -26,7 +26,7 @@
             <div class="item">
                 <div class="fill" style="background-image:url('<?=base_url('images')?>/slider_buildings.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2>Smile you found us.</h2>
+                    <h2>Smile you've found us.</h2>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    Jolly Management Solution Inc.
+                    Jolly Management Solutions Inc.
                 </h1>
             </div>
 

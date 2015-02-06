@@ -18,7 +18,7 @@
 
 <?php
 
-   $branches = array( array("branch_name"=> "Cagayan Office", "coordinator" => "TRENA BARETE",
+   $branches = array( array("branch_name"=> "Cagayan De Oro Office", "coordinator" => "TRENA BARETE",
            "address" => "17th - 1st St. Nazareth  Cagayan De Oro", 
            "iframe_src" => "https://www.google.com/maps/embed/v1/search?q=Nazareth%2C%201st%20St%2C%20Cagayan%20de%20Oro%2C%20Northern%20Mindanao%2C%20Philippines&key=AIzaSyDtO0uKMUJ9cHbpSkA4lebvPcfHoFasNlQ",
            "landline" => "088-8801429" , "mobile" => "0917-5080595"  ),
