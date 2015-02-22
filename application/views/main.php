@@ -251,26 +251,27 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
             <div class="col-md-6">
                 <p>Jolly Management Solution Inc. offers the following services:</p>
                 <ul>
-                    <li>Assist Client with manpower need from end to end hiring process
-</li>
-                    <li>Support employee by providing security Assist Client with manpower need from end to end hiring process
-</li>
+
+<?php
+    $services_data = $services['rows'];
+    foreach ($services_data as $s_data) {
+        echo "<li>" . $s_data->description . "</li>";
+    }
+
+?>
                 </ul>
                 <br>
                <h3>Our Specialization</h3>
                 <p>Jolly Management Solution Inc. specializes the following: </p>
                  <ul>
-                    <li>Housekeeping/Janitorial Service </li>
-                    <li>Service Crew for Food and Beverages </li> 
-      <li>Receptionist/ Room Attendant  for Hotel and Hospitality </li>
-                    <li>Drivers</li>
-                    <li>Cashier</li>
-                    <li>Auto Mechanic</li>
-                    <li>IT Support</li>
-                    <li>Administrative Work</li>
-                    <li>Customer Service Relation</li>
-                    <li>Production Worker</li>
-                    <li>Telemarketer</li>
+
+<?php
+    $sp_data = $specializations['rows'];
+    foreach ($sp_data as $s_data) {
+        echo "<li>" . $s_data->description . "</li>";
+    }
+
+?>
                 </ul>
             </div>
             <div class="col-md-6">

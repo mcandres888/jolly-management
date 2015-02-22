@@ -35,6 +35,8 @@
            "iframe_src" => "https://www.google.com/maps/embed/v1/search?q=Injap%20Bldg.%20Cor.%20Luna%20and%20Huervana%20St%20Lapaz%20Iloilo%20City&key=AIzaSyDtO0uKMUJ9cHbpSkA4lebvPcfHoFasNlQ",
            "landline" => "033-3204849" , "mobile" => "0999-5047720"  ) ) ;
 
+   $branches = $branches_data['rows'];
+
    foreach ($branches as $branch) {
 
 ?>
@@ -43,22 +45,22 @@
             <!-- Map Column -->
             <div class="col-md-8">
                 <!-- Embedded Google Map -->
-<iframe width="600" height="450" frameborder="0" style="border:0" src="<?=$branch['iframe_src']?>" ></iframe>
+<iframe width="600" height="450" frameborder="0" style="border:0" src="<?=$branch->iframe_src?>" ></iframe>
             </div>
             <!-- Contact Details Column -->
             <div class="col-md-4">
-                <h3><?=$branch['branch_name']?></h3>
+                <h3><?=$branch->branch_name?></h3>
                 <p>
-                   <h5><?=$branch['coordinator'] ?> </h5>
+                   <h5><?=$branch->coordinator ?> </h5>
                 </p>
-                   <?=$branch['address'] ?> <br>
+                   <?=$branch->address ?> <br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: <?=$branch['landline'] ?>
+                    <abbr title="Phone">P</abbr>: <?=$branch->landline ?>
 <br></p>
 
                 <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: <?=$branch['mobile'] ?>
+                    <abbr title="Phone">P</abbr>: <?=$branch->mobile ?>
 <br></p>
                 <p><i class="fa fa-envelope-o"></i> 
                     <abbr title="Email">E</abbr>: <a href="mailto:hrdrecruitment.jmsi@gmail.com">hrdrecruitment.jmsi@gmail.com</a>

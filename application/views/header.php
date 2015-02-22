@@ -59,7 +59,7 @@
                         <a href="<?=site_url()?>/main/services">Services</a>
                     </li>
                     <li>
-                        <a href="<?=site_url()?>/main/jobs">Job Opportunity</a>
+                        <a href="<?=site_url()?>/main/jobs/0">Job Opportunity</a>
                     </li>
                     <li class="dropdown">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Tools <span class="caret"></span></a>

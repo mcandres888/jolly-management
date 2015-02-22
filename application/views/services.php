@@ -31,8 +31,13 @@
             </div>
   	<div class="col-md-8">
        <ul>
-     		<li><h4>Assist Client with manpower need from end to end hiring process</h4> </li>
- 		   <li><h4>Support employee by providing security Assist Client with manpower need from end to end hiring process</h4> </li>
+<?php
+    $services_data = $services['rows'];
+    foreach ($services_data as $s_data) {
+        echo "<li><h4>" . $s_data->description . "</h4></li>";
+    }
+
+?>
        </ul>
 	</div>
 
@@ -47,18 +52,14 @@
 
   <div class="col-md-8">
  	<ul>
-		<li><h4>Housekeeping/Janitorial Service </h4></li>
-   	<li><h4>Service Crew for Food and Beverages </h4></li>
-   	<li><h4>Receptionist/ Room Attendant  for Hotel and Hospitality </h4></li>
-   	<li><h4>Drivers</h4></li>
-   	<li><h4>Cashier</h4></li>
-   	<li><h4>Auto Mechanic</h4></li>
-   	<li><h4>IT Support</h4></li>
-   	<li><h4>Administrative Work</h4></li>
-   	<li><h4>Customer Service Relation</h4></li>
-   	<li><h4>Production Worker</h4></li>
-   	<li><h4>Telemarketer</h4></li>
 
+<?php
+    $sp_data = $specializations['rows'];
+    foreach ($sp_data as $s_data) {
+        echo "<li><h4>" . $s_data->description . "</h4></li>";
+    }
+
+?>
 	</ul>
 
 	</div>

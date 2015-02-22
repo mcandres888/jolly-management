@@ -19,15 +19,41 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('main');
+    $view_data['title'] = "Index";
+    $this->load->model('service');
+    $services = new service();
+
+
+    $this->load->model('specialization');
+    $specialization = new specialization();
+
+    $view_data['services'] = $services->get_all_data();
+    $view_data['specializations'] = $specialization->get_all_data();
+		$this->load->view('main', $view_data);
 	}
 	public function about()
 	{
-		$this->load->view('about');
+
+    $this->load->model('employee');
+    $employee = new employee();
+    $view_data['employees_data'] = $employee->get_all_data();
+
+		$this->load->view('about', $view_data);
 	}
 	public function services()
 	{
-		$this->load->view('services');
+    $view_data['title'] = "Services";
+    $this->load->model('service');
+    $services = new service();
+
+
+    $this->load->model('specialization');
+    $specialization = new specialization();
+
+    $view_data['services'] = $services->get_all_data();
+    $view_data['specializations'] = $specialization->get_all_data();
+		$this->load->view('services', $view_data);
+	
 	}
 	public function contact()
 	{
@@ -36,12 +62,24 @@ class Main extends CI_Controller {
 
 	public function branches()
 	{
-		$this->load->view('branches');
+    $this->load->model('branch');
+    $branch_data = new branch();
+    $view_data['branches_data'] = $branch_data->get_all_data();
+
+		$this->load->view('branches', $view_data);
 	}
 
-	public function jobs()
+	public function jobs( $page )
 	{
-		$this->load->view('jobs');
+
+    $this->load->model('job');
+    $job = new job();
+    $view_data['jobs_data'] = $job->get_page_data($page);
+    
+    $view_data['prev_url'] = site_url() . "/main/jobs/" . ($page - 1);
+    $view_data['current_page'] = $page;
+    $view_data['next_url'] = site_url() . "/main/jobs/" . ($page + 1);
+		$this->load->view('jobs', $view_data);
 	}
 
 

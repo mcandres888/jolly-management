@@ -105,14 +105,7 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
 
 <?php
 
-$members = array( 
-        array("name" => "John Smith" , "job_title" => "Supervisor" , "desc" => "desc" ),
-        array("name" => "John Smith" , "job_title" => "Supervisor" , "desc" => "desc" ),
-        array("name" => "John Smith" , "job_title" => "Supervisor" , "desc" => "desc" ),
-        array("name" => "John Smith" , "job_title" => "Supervisor" , "desc" => "desc" ),
-        array("name" => "John Smith" , "job_title" => "Supervisor" , "desc" => "desc" ),
-        array("name" => "John Smith" , "job_title" => "Supervisor" , "desc" => "desc" ),
-     );
+    $members = $employees_data['rows'];
 
     foreach ($members as $member) {
 
@@ -120,10 +113,10 @@ $members = array(
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h3>John Smith<br>
-                            <small>Job Title</small>
+                        <h3><?=$member->employee_name?><br>
+                            <small><?=$member->job_title?></small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                        <p><?=$member->description?></p>
                         <ul class="list-inline">
                             <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>

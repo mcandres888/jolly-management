@@ -26,6 +26,11 @@ $jobs = array(
 
 );
 
+
+
+$jobs = $jobs_data['rows'];
+$pages = $jobs_data['pages'];
+
 foreach ($jobs as $job) {
 
 
@@ -34,16 +39,15 @@ foreach ($jobs as $job) {
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-9">
-		<h3><?=$job['position']?></h3>
+		<h3><?=$job->position?></h3>
 
-                <h4>Job location: Taguig</h4>
-                <h4>Salary: Pakyaw Rate/Piece Rate</h4>
+                <h4>Job location: <?=$job->location?></h4>
+                <h4>Salary: <?=$job->salary?></h4>
 		<h3>Job Requirement</h3>
-                <p>Male not more than 28 years old <br>
-                Atleast 1 year experience in the food industry <br>
-                College Level, High School Graduate, College Graduate</p>
-                <p>Interested applicant may apply personally at:
-Islas Unidas Building 5590 Osmeña Highway Cor. Makiling St. Brgy. Palanan Makati.Email Us At: hrdrecruitment.jmsi@gmail.com & hrdrecruitment.jmsi@yahoo.com </p>
+                <p>
+                	<?=$job->requirement?>
+                </p>
+            <p>Email Us At: <?=$job->email?></p>
             </div>
         </div>
         <!-- /.row -->
@@ -55,17 +59,25 @@ Islas Unidas Building 5590 Osmeña Highway Cor. Makiling St. Brgy. Palanan Makat
 <nav>
   <ul class="pagination">
     <li>
-      <a href="#" aria-label="Previous">
+      <a href="<?=$prev_url?>" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
       </a>
     </li>
-    <li class="active"><a  href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
+    <?php
+     
+     for ($i = 0; $i < $jobs_data['pages'] ; $i++) {
+     
+        $url = site_url() . "/main/jobs/$i";
+        $page = $i + 1;
+        if ($current_page == $i) {
+    			echo "<li class='active'><a  href='$url'>$page</a></li>";
+        } else {
+    			echo "<li><a  href='$url'>$page</a></li>";
+        }
+		}
+		?>
     <li>
-      <a href="#" aria-label="Next">
+      <a href="<?=$next_url?>" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
       </a>
     </li>
