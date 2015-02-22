@@ -3,7 +3,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Jolly Management Solution Inc. 2014</p>
+                    <p>Copyright &copy; Jolly Management Solution Inc. <a href="http://admin.jmsi.com.ph/">2014</a> </p>
                 </div>
             </div>
         </footer>
