@@ -104,11 +104,8 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
             </div>
 
 <?php
-
     $members = $employees_data['rows'];
-
     foreach ($members as $member) {
-
 ?>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
@@ -148,31 +145,47 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+
+<?php
+    $clients = $clients_data['rows'];
+    $i = 0;
+    foreach ($clients as $client) {
+    	if ($i == 0) {
+    		echo "<li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li>";
+			} else {
+    		echo "<li data-target='#carousel-example-generic' data-slide-to='".$i."'></li>";
+		} 
+    $i++;
+   
+ 		} 
+?>
+ </ol>
  
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-      <img src="http://placehold.it/1200x315" alt="...">
+
+
+<?php
+    $clients = $clients_data['rows'];
+    $i = 0;
+    foreach ($clients as $client) {
+    if ($i == 0) {
+    	echo "<div class='item active'>";
+		} else {
+    	echo "<div class='item'>";
+		} 
+    $i++;
+   
+
+?>
+
+      <img src="<?=$client->image_url?>" alt="">
       <div class="carousel-caption">
-          <h3>Caption Text</h3>
+          <h3><?=$client->caption?></h3>
       </div>
     </div>
-    <div class="item">
-      <img src="http://placehold.it/1200x315" alt="...">
-      <div class="carousel-caption">
-          <h3>Caption Text</h3>
-      </div>
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/1200x315" alt="...">
-      <div class="carousel-caption">
-          <h3>Caption Text</h3>
-      </div>
-    </div>
+<? } ?>
+
   </div>
  
   <!-- Controls -->

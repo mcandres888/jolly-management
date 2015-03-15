@@ -124,71 +124,123 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
             <div class="col-lg-12">
                 <h2 class="page-header">Our Clients</h2>
             </div>
-				</div>
+            <div class="col-md-4 col-sm-6">
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_yacht_club.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_ace.png">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_brady.gif">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti.JPG">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_santos.jpeg">
+             </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical_clinic.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_pacific.jpeg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_masinag.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_md.jpg">
+             </div>
+
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_pasig.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_vista.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_taytay.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_best_mobile.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_canadian.png">
+             </div>
 
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
+            </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_pasig.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_vista.jpg">
+             </div>
 
-<?php
-    $clients = $clients_data['rows'];
-    $i = 0;
-    foreach ($clients as $client) {
-      if ($i == 0) {
-        echo "<li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li>";
-      } else {
-        echo "<li data-target='#carousel-example-generic' data-slide-to='".$i."'></li>";
-    }
-    $i++;
-
-    }
-?>
- </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_taytay.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_best_mobile.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_canadian.png">
+             </div>
 
 
+            </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_yacht_club.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_ace.png">
+             </div>
 
-<?php
-    $clients = $clients_data['rows'];
-    $i = 0;
-    foreach ($clients as $client) {
-    if ($i == 0) {
-      echo "<div class='item active'>";
-    } else {
-      echo "<div class='item'>";
-    }
-    $i++;
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_brady.gif">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti.JPG">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_santos.jpeg">
+             </div>
+           
+            </div>
+            <div class="col-md-4 col-sm-6">
+             <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sti_medical_clinic.jpg">
+             </div>
+
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_pacific.jpeg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_sm_masinag.jpg">
+             </div>
+              <div id="logo_div">
+                 <img src="<?=base_url('images')?>/logo_md.jpg">
+             </div>
 
 
-?>
-
-      <img src="<?=$client->image_url?>" alt="">
-      <div class="carousel-caption">
-          <h3><?=$client->caption?></h3>
-      </div>
-    </div>
-<? } ?>
-
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div> <!-- Carousel -->
-
-
-
-
-
-
-
+            </div>
+        </div>
         <!-- /.row -->
 
         <!-- Features Section -->

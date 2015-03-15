@@ -27,6 +27,12 @@ class Main extends CI_Controller {
     $this->load->model('specialization');
     $specialization = new specialization();
 
+
+    $this->load->model('client');
+    $clients = new client();
+    $view_data['clients_data'] = $clients->get_all_data();
+
+
     $view_data['services'] = $services->get_all_data();
     $view_data['specializations'] = $specialization->get_all_data();
 		$this->load->view('main', $view_data);
@@ -38,6 +44,9 @@ class Main extends CI_Controller {
     $employee = new employee();
     $view_data['employees_data'] = $employee->get_all_data();
 
+    $this->load->model('client');
+    $clients = new client();
+    $view_data['clients_data'] = $clients->get_all_data();
 		$this->load->view('about', $view_data);
 	}
 	public function services()
