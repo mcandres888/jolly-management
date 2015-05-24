@@ -1,9 +1,9 @@
 
        <!-- Footer -->
         <footer>
-            <div class="row">
+            <div class="row center">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Jolly Management Solution Inc. <a href="http://admin.jmsi.com.ph/">2014</a> </p>
+                    <p align="center">Copyright &copy; Jolly Management Solution Inc. <a href="http://admin.jmsi.com.ph/">2014</a> </p>
                 </div>
             </div>
         </footer>

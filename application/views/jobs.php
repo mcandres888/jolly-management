@@ -31,32 +31,54 @@ $jobs = array(
 $jobs = $jobs_data['rows'];
 $pages = $jobs_data['pages'];
 
-foreach ($jobs as $job) {
+$i = 1;
 
+for ($i = 0; $i < count($jobs); $i = $i +2) {
 
+$job1= $jobs[$i];
+
+if (count($jobs) > $i +1) {
+   $job2= $jobs[$i + 1];
+}
 ?>
-
+     <div class="row">
         <!-- Content Row -->
-        <div class="row">
-            <div class="col-lg-9">
-		<h3><?=$job->position?></h3>
 
-                <h4>Job location: <?=$job->location?></h4>
-                <h4>Salary: <?=$job->salary?></h4>
+            <div class="col-lg-6">
+		<h3><?=$job1->position?></h3>
+
+                <h4>Job location: <?=$job1->location?></h4>
+                <h4>Salary: <?=$job1->salary?></h4>
 		<h3>Job Requirement</h3>
                 <p>
-                	<?=$job->requirement?>
+                	<?=$job1->requirement?>
                 </p>
-            <p>Email Us At: <?=$job->email?></p>
+            <p>Email Us At: <?=$job1->email?></p>
             </div>
-        </div>
-        <!-- /.row -->
 
-        <hr>
+ <?php if (count($jobs) > $i +1) { ?>
 
-<?php } //closing ?>
+            <div class="col-lg-6">
+		<h3><?=$job2->position?></h3>
+
+                <h4>Job location: <?=$job2->location?></h4>
+                <h4>Salary: <?=$job2->salary?></h4>
+		<h3>Job Requirement</h3>
+                <p>
+                	<?=$job2->requirement?>
+                </p>
+            <p>Email Us At: <?=$job1->email?></p>
+            </div>
+
+  <?php } ?>
+
+    </div><hr>
+
+<?php
+    } //closing ?>
 
 <nav>
+ <div style="text-align:center">
   <ul class="pagination">
     <li>
       <a href="<?=$prev_url?>" aria-label="Previous">
@@ -82,6 +104,7 @@ foreach ($jobs as $job) {
       </a>
     </li>
   </ul>
+</div>
 </nav>
 
 <?php include 'footer.php'?>

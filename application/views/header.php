@@ -49,25 +49,25 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
      <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <li <? if ($nav=="home") { ?>class="active" <? }?>>
                         <a href="<?=site_url()?>">Home</a>
                     </li>
-                    <li>
+                    <li <? if ($nav=="about") { ?>class="active" <? }?>>
                         <a href="<?=site_url()?>/main/about">About</a>
                     </li>
-                    <li>
+                    <li <? if ($nav=="services") { ?>class="active" <? }?>>
                         <a href="<?=site_url()?>/main/services">Services</a>
                     </li>
-                    <li>
+                    <li <? if ($nav=="jobs") { ?>class="active" <? }?>>
                         <a href="<?=site_url()?>/main/jobs/0">Job Opportunity</a>
                     </li>
-                    <li class="dropdown">
+                    <li <? if ($nav=="tools") { ?>class="dropdown active" <? } else {?> class="dropdown" <?}?>>
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Tools <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                		<li><a href="#">Web Payslip</a></li>
+				<li><a href="http://payslip.jmsi.com.ph:8080/jmsi-payslip-viewer-1.0/">WEB Payslip</a></li>
               			</ul>
                     </li>
-                    <li>
+                    <li <? if ($nav=="contact") { ?>class="active" <? }?>>
   			 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Contact Us <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                         <li><a href="<?=site_url()?>/main/contact">Main Office</a></li>

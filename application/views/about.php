@@ -133,69 +133,6 @@ The company was incorporated on April 29, 2005 to engage in the business of loca
         </div>
         <!-- /.row -->
 
-        <!-- Our Customers -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Clients</h2>
-            </div>
-        </div>
-
-
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-
-<?php
-    $clients = $clients_data['rows'];
-    $i = 0;
-    foreach ($clients as $client) {
-    	if ($i == 0) {
-    		echo "<li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li>";
-			} else {
-    		echo "<li data-target='#carousel-example-generic' data-slide-to='".$i."'></li>";
-		} 
-    $i++;
-   
- 		} 
-?>
- </ol>
- 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-
-
-<?php
-    $clients = $clients_data['rows'];
-    $i = 0;
-    foreach ($clients as $client) {
-    if ($i == 0) {
-    	echo "<div class='item active'>";
-		} else {
-    	echo "<div class='item'>";
-		} 
-    $i++;
-   
-
-?>
-
-      <img src="<?=$client->image_url?>" alt="">
-      <div class="carousel-caption">
-          <h3><?=$client->caption?></h3>
-      </div>
-    </div>
-<? } ?>
-
-  </div>
- 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div> <!-- Carousel -->
 
         <!-- /.row -->
 

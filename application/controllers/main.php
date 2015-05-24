@@ -20,6 +20,7 @@ class Main extends CI_Controller {
 	public function index()
 	{
     $view_data['title'] = "Index";
+    $view_data['nav'] = "home";
     $this->load->model('service');
     $services = new service();
 
@@ -43,6 +44,7 @@ class Main extends CI_Controller {
     $this->load->model('employee');
     $employee = new employee();
     $view_data['employees_data'] = $employee->get_all_data();
+    $view_data['nav'] = "about";
 
     $this->load->model('client');
     $clients = new client();
@@ -52,6 +54,7 @@ class Main extends CI_Controller {
 	public function services()
 	{
     $view_data['title'] = "Services";
+    $view_data['nav'] = "services";
     $this->load->model('service');
     $services = new service();
 
@@ -66,11 +69,13 @@ class Main extends CI_Controller {
 	}
 	public function contact()
 	{
-		$this->load->view('contact');
+    $view_data['nav'] = "contact";
+		$this->load->view('contact', $view_data);
 	}
 
 	public function branches()
 	{
+    $view_data['nav'] = "contact";
     $this->load->model('branch');
     $branch_data = new branch();
     $view_data['branches_data'] = $branch_data->get_all_data();
@@ -84,6 +89,8 @@ class Main extends CI_Controller {
     $this->load->model('job');
     $job = new job();
     $view_data['jobs_data'] = $job->get_page_data($page);
+    $view_data['nav'] = "jobs";
+
     
     $view_data['prev_url'] = site_url() . "/main/jobs/" . ($page - 1);
     $view_data['current_page'] = $page;
